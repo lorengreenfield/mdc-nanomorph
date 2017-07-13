@@ -1,7 +1,7 @@
 {
-  "name": "nanomorph",
-  "version": "5.1.2",
-  "description": "Hyper fast diffing algorithm for real DOM nodes",
+  "name": "mdc-nanomorph",
+  "version": "0.1.0",
+  "description": "Same as nanomorph, but also copies across `mdc-` prefixed css classes when using material-component-web's autoInit.",
   "main": "index.js",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
@@ -9,8 +9,11 @@
     "test:fast": "browserify test/diff.js | tape-run",
     "start": "bankai start --debug test/diff.js"
   },
-  "repository": "yoshuawuyts/nanomorph",
+  "repository": "lorengreenfield/mdc-nanomorph",
   "keywords": [
+    "mdc",
+    "material-components-web",
+    "mdc-web",
     "dom",
     "diff",
     "tiny",
