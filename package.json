@@ -1,6 +1,6 @@
 {
   "name": "mdc-nanomorph",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Same as nanomorph, but also copies across `mdc-` prefixed css classes when using material-component-web's autoInit.",
   "main": "index.js",
   "scripts": {
